@@ -1,0 +1,14 @@
+{
+  "name": "pr_04.01",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "mainScript.js",
+  "scripts": {
+    "test": "testJS"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "evsem",
+  "license": "ISC"
+}

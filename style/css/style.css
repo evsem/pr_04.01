@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: cornsilk;
+  padding: 4px;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
