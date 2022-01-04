@@ -5,9 +5,48 @@
 }
 
 body {
-  background: cornsilk;
+  background: whitesmoke;
   padding: 4px;
   font-size: 14px;
   font-family: 'Montserrat';
   font-weight: 300;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  margin: 0px 0px 10px 0px;
+  .header_boxFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header_title {
+      font-size: 24px;
+      font-weight: 300;
+      font-family: 'Montserrat';
+      letter-spacing: 3px;
+    }
+    .header_menu {
+      .header_menu__item {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-weight: 500;
+        margin-right: 76px;
+      }
+      .header_menu__item:last-child {
+        margin: 0;
+      }
+    }
+  }
+}
+
+.main {
+}
+
+.footer {
 }

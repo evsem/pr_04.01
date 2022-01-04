@@ -6,9 +6,45 @@
 }
 
 body {
-  background: cornsilk;
+  background: whitesmoke;
   padding: 4px;
   font-size: 14px;
   font-family: "Montserrat";
   font-weight: 300;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  margin: 0px 0px 10px 0px;
+}
+.header .header_boxFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .header_boxFlex .header_title {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "Montserrat";
+  letter-spacing: 3px;
+}
+.header .header_boxFlex .header_menu .header_menu__item {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 76px;
+}
+.header .header_boxFlex .header_menu .header_menu__item:last-child {
+  margin: 0;
 }
